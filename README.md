@@ -15,7 +15,7 @@ bdfd.js is a codinng for discord bots like discord.js
 ## Example codes
 
 ```
-const dbfd = require('bdfd.js');
+const bdfd = require('bdfd.js');
 const bot = new bdfd.Bot();
 
 bot.commands => {
