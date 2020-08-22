@@ -18,7 +18,7 @@ bdfd.js is a codinng for discord bots like discord.js
 const bdfd = require('bdfd.js');
 const bot = new bdfd.Bot();
 
-bot.commands => {
+bot.Commands => {
   "command": "!help"
   "description": "see the help of the bot"
   "reply" ["setEmbedResponse("Title", "description", "footer") setEmbedIMage(imageURL)
