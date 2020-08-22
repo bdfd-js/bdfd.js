@@ -24,8 +24,9 @@ bot.set({
   token: 'token'
 });
 
-bot.Commands => {
+bot.Commands({
   "command": "help"
   "description": "see the help of the bot"
   "reply" ["setEmbedResponse("Title", "description", "footer") setEmbedIMage(imageURL)
+  })
 ```image
